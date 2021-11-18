@@ -30,7 +30,7 @@ for i in my_content:
     txt_owner = i['owner']
     txt_title = i['title']
     txt_type = i['type']
-    item_size = str(i.size)
+    item_size = i.size
     upd_yr = time.localtime(i.modified/1000)[0]
     upd_mo = time.localtime(i.modified/1000)[1]
     upd_dy = time.localtime(i.modified/1000)[2]
