@@ -11,8 +11,6 @@ import pandas as pd
 import os
 
 # Log in via users credentials stored in ArcGIS Pro
-# Many thanks to Roger Flores at ISD for figuring this one out.
-
 print ('connecting to your ArcGIS Online account')
 gis = GIS("pro", verify_cert=False)
 
