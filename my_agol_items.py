@@ -52,5 +52,4 @@ writer = pd.ExcelWriter('my_agol_items.xlsx')
 
 df.to_excel(writer, sheet_name='my_agol')
 
-# the lone below is old code, probably writer._save
-#writer.save()
+#writer._save()
